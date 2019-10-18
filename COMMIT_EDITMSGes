@@ -1,0 +1,302 @@
+version vincent 07/06/19
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   Puissance4/.cproject
+#	new file:   Puissance4/.gitignore
+#	new file:   Puissance4/.project
+#	new file:   Puissance4/.settings/language.settings.xml
+#	new file:   Puissance4/.settings/org.eclipse.cdt.managedbuilder.core.prefs
+#	new file:   Puissance4/Puissance4_converter.log
+#	new file:   Puissance4/README.md
+#	new file:   Puissance4/src/affichage.c
+#	new file:   Puissance4/src/affichage.h
+#	new file:   Puissance4/src/controleur_de_jeu.c
+#	new file:   Puissance4/src/controleur_de_jeu.h
+#	new file:   Puissance4/src/gestion_pupitre.c
+#	new file:   Puissance4/src/gestion_pupitre.h
+#	new file:   Puissance4/src/main.c
+#	new file:   Puissance4/src/pupitre.c
+#	new file:   Puissance4/src/pupitre.h
+#	new file:   Puissance4/src/variable.h
+#
+# Changes not staged for commit:
+#	modified:   ../Atollic/TrueSTUDIO/STM32_workspace_9.3/affichage4/.cproject
+#	modified:   ../Atollic/TrueSTUDIO/STM32_workspace_9.3/affichage4/Debug/affichage4
+#	modified:   ../Atollic/TrueSTUDIO/STM32_workspace_9.3/affichage4/Debug/objects.mk
+#	deleted:    ../Atollic/TrueSTUDIO/STM32_workspace_9.3/affichage4/Debug/src/main.d
+#	deleted:    ../Atollic/TrueSTUDIO/STM32_workspace_9.3/affichage4/Debug/src/main.o
+#	modified:   ../Atollic/TrueSTUDIO/STM32_workspace_9.3/affichage4/Debug/src/subdir.mk
+#	deleted:    ../Puissance4/README.md
+#	deleted:    ../Puissance4/src/gestion_pupitre.c
+#	deleted:    ../Puissance4/src/gestion_pupitre.h
+#	deleted:    ../Puissance4/src/main.c
+#	deleted:    ../Puissance4/src/pupitre.c
+#	deleted:    ../Puissance4/src/pupitre.h
+#	deleted:    ../Puissance4/src/variable.h
+#	deleted:    Future_Clock_Project/.cproject
+#	deleted:    Future_Clock_Project/.mxproject
+#	deleted:    Future_Clock_Project/.project
+#	deleted:    Future_Clock_Project/.settings/com.atollic.truestudio.debug.hardware_device.prefs
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f429xx.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Include/cmsis_armcc.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Include/cmsis_armclang.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Include/cmsis_compiler.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Include/cmsis_gcc.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Include/cmsis_iccarm.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Include/cmsis_version.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Include/core_armv8mbl.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Include/core_armv8mml.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Include/core_cm0.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Include/core_cm0plus.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Include/core_cm1.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Include/core_cm23.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Include/core_cm3.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Include/core_cm33.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Include/core_cm4.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Include/core_cm7.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Include/core_sc000.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Include/core_sc300.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Include/mpu_armv7.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Include/mpu_armv8.h
+#	deleted:    Future_Clock_Project/Drivers/CMSIS/Include/tz_context.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_eth.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+#	deleted:    Future_Clock_Project/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
+#	deleted:    Future_Clock_Project/Future_Clock_Project.elf.launch
+#	deleted:    Future_Clock_Project/Future_Clock_Project.ioc
+#	deleted:    Future_Clock_Project/Inc/FreeRTOSConfig.h
+#	deleted:    Future_Clock_Project/Inc/eth.h
+#	deleted:    Future_Clock_Project/Inc/gpio.h
+#	deleted:    Future_Clock_Project/Inc/i2c.h
+#	deleted:    Future_Clock_Project/Inc/main.h
+#	deleted:    Future_Clock_Project/Inc/stm32f4xx_hal_conf.h
+#	deleted:    Future_Clock_Project/Inc/stm32f4xx_it.h
+#	deleted:    Future_Clock_Project/Inc/usart.h
+#	deleted:    Future_Clock_Project/Inc/usb_otg.h
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/list.c
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/queue.c
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+#	deleted:    Future_Clock_Project/Middlewares/Third_Party/FreeRTOS/Source/timers.c
+#	deleted:    Future_Clock_Project/STM32F429ZI_FLASH.ld
+#	deleted:    Future_Clock_Project/Src/eth.c
+#	deleted:    Future_Clock_Project/Src/freertos.c
+#	deleted:    Future_Clock_Project/Src/gpio.c
+#	deleted:    Future_Clock_Project/Src/i2c.c
+#	deleted:    Future_Clock_Project/Src/main.c
+#	deleted:    Future_Clock_Project/Src/stm32f4xx_hal_msp.c
+#	deleted:    Future_Clock_Project/Src/stm32f4xx_hal_timebase_tim.c
+#	deleted:    Future_Clock_Project/Src/stm32f4xx_it.c
+#	deleted:    Future_Clock_Project/Src/syscalls.c
+#	deleted:    Future_Clock_Project/Src/system_stm32f4xx.c
+#	deleted:    Future_Clock_Project/Src/usart.c
+#	deleted:    Future_Clock_Project/Src/usb_otg.c
+#	deleted:    Future_Clock_Project/startup/startup_stm32f429xx.s
+#
+# Untracked files:
+#	../#monfichier.sh#
+#	../.ICEauthority
+#	../.PyCharmCE2018.3/
+#	../.Section.swp
+#	../.Xauthority
+#	../.atom/
+#	../.bash_history
+#	../.bash_logout
+#	../.bashrc
+#	../.cache/
+#	../.cinnamon/
+#	../.config/
+#	../.dmrc
+#	../.eclipse/
+#	../.gitconfig
+#	../.gtkrc-2.0
+#	../.gtkrc-xfce
+#	../.hplip/
+#	../.java/
+#	../.lesshst
+#	../.linuxmint/
+#	../.local/
+#	../.mozilla/
+#	../.mysql/
+#	../.mysql_history
+#	../.oracle_jre_usage/
+#	../.pki/
+#	../.profile
+#	../.python_history
+#	../.sql
+#	../.ssh/
+#	../.stm32cubemx/
+#	../.stm32cubeup/
+#	../.stmcufinder/
+#	../.sudo_as_admin_successful
+#	../.swt/
+#	../.thunderbird/
+#	../.txt
+#	../.viminfo
+#	../.xsession-errors
+#	../.xsession-errors.old
+#	../1wireshark.pcapng
+#	../ARM.txt
+#	../Atollic/TrueSTUDIO/Nucleo_STM32F429ZI/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/.metadata/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/affichage4/.settings/org.eclipse.cdt.managedbuilder.core.prefs
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/affichage4/Debug/src/affichage.d
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/affichage4/Debug/src/affichage.o
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/affichage_2/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/allocation_dynamique/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/appel_fonction/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/declaration_fonction_audessus_main/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/declaration_fonction_endessous_main/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/distance/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/first C/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/fonction_nombre/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/fonction_nombres_tableau/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/fonction_variable_locale/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/fonction_variable_statique/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/help/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/les_pointeurs/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/mots/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/p11/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/p12/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/p13/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/p14/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/p1_christophe/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/p2/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/p20/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/p21/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/p22/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/p23/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/p2christophe/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/p3/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/p4/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/p5/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/p5christophe/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/p6/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/p7/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/p8/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/p9/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/poids/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/pointeur_constant/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/pointeur_tab2/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/pointeur_tableau/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/puissance4_fil_rouge1/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/puissance4_master/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/puissance4_slave/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/tableau_1dimension/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/tableau_1dimension2/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/tableau_1dimension3/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/tableau_1dimension4/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/tableau_2dimensions/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/tableau_dimension6/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/thread_puissance4/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/xxx/
+#	../Atollic/TrueSTUDIO/STM32_workspace_9.3/xxx1/
+#	../Bureau/
+#	../Documents/
+#	../FutureClockProject/
+#	../Images/
+#	../PycharmProjects/
+#	../STM32Cube/
+#	.cproject
+#	.installationinformation
+#	.project
+#	.settings/
+#	FutureClockProject/
+#	STM32CubeMX
+#	Uninstaller/
+#	db/
+#	help/
+#	nucleos-f429zi-net14/
+#	olddb/
+#	plugins/
+#	pupitre2_freertos/
+#	pupitre2_freertos2.0/
+#	queues_de_message/
+#	third_parties_plugins/
+#	"../T\303\251l\303\251chargements/"
+#	../campus-essais-copie1/
+#	../campus_essais/
+#	../git-ecommerce/
+#	../herboristerie1.sql
+#	../monfichier.sh
+#	../peewee/
+#	../projet_indus/
+#	../shema_herboristerie.sql
+#	../titi/
+#
